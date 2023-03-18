@@ -23,8 +23,6 @@ const Statistics = ({ stats, total, positivePercentage }) => {
 //prop types
 Statistics.propTypes = {
   good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
   total: PropTypes.func,
   positivePercentage: PropTypes.func,
 };
