@@ -12,7 +12,7 @@ const Statistics = ({ stats, total, positivePercentage }) => {
   });
 
   return (
-    <div>
+    <div className={stat.counting}>
       {opinion}
       <p>Total: {total(stats)} </p>
       <p>Positive feedback: {positivePercentage(stats.good, total(stats))} </p>

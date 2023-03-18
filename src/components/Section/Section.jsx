@@ -1,13 +1,14 @@
 import { Component } from 'react';
+import css from './Section.module.css';
 
 class Section extends Component {
   render() {
-      const {title, children} = this.props
+    const { title, children } = this.props;
     return (
       <>
-        <h1>{title}</h1>
+        <h1 className={css.sectionHeader}>{title}</h1>
         {children}
-        <h2>Statistics</h2>
+        <h2 className={css.sectionHeader}>Statistics</h2>
       </>
     );
   }
