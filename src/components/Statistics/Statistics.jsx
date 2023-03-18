@@ -20,6 +20,7 @@ const Statistics = ({ stats, total, positivePercentage }) => {
   );
 };
 
+//prop types
 Statistics.propTypes = {
   good: PropTypes.number,
   neutral: PropTypes.number,
